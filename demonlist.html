@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Friendercrate Demonlist</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1 style="text-align: center;" class="absolutecinema">Friendercrate Demonlist</h1>
+<p style="text-align: center;">The Leaderboard, a list carefully curated by Aarks, containing the top 15 hardest levels beaten by the Hola Server.</p>
+<center>
+<a href="index.html" class="button"><-- Go Back</a>
+<a href="leaderboard.html" class="button">Check out the Stats</a>
+<a href="submit.html" class="button">Submit your Completion</a>
+</header>
+
+<main>
+
+<section id="demonlist" class="card">
+<table>
+<caption>
+<h2>The Main List</h2>
+</caption>
+<thead>
+<tr>
+<th class="rank">No.</th>
+<th>Level</th>
+<th>Difficulty</th>
+<th>Creator</th>
+<th>Verifier</th>
+<th>Points</th>
+<th>Victors</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td class="top1"><a href="#" onclick="showLevel(
+'Deadlocked',
+'My hardest :D',
+'Easy Demon',
+'RobTop',
+'Aarks',
+'nill',
+'350'
+); return false;">
+Deadlocked
+</a></td>
+<td class="easydemon">Easy Demon</td>
+<td>RobTop</td>
+<td>Aarks</td>
+<td>350</td>
+<td>-</td>
+</tr>
+<tr>
+<td>2</td>
+<td class="top2"><a href="#" onclick="showLevel(
+'Theory of Everything II',
+'My first demon...',
+'Easy Demon',
+'RobTop',
+'Aarks',
+'nil',
+'330'
+); return false;">Theory of Everything II</a></td>
+<td class="easydemon">Easy Demon</td>
+<td>RobTop</td>
+<td>Aarks</td>
+<td>330</td>
+<td>-</td>
+</tr>
+<tr>
+<td>3</td>
+<td class="top3"><a href="#" onclick="showLevel(
+'Clubstep',
+'The middle child I guess',
+'Easy Demon',
+'RobTop',
+'Aarks',
+'nil',
+'300'
+); return false;">Clubstep</a></td>
+<td class="easydemon">Easy Demon</td>
+<td>RobTop</td>
+<td>Aarks</td>
+<td>300</td>
+<td>-</td>
+</tr>
+<tr>
+<td>4</td>
+<td class="mainlist"><a href="#" onclick="showLevel(
+'Electrodynamix',
+'My first major achievement, memorable',
+'Insane',
+'RobTop',
+'Aarks',
+'arxdamn',
+'270'
+); return false;">Electrodynamix</a></td>
+<td class="insane">Insane</td>
+<td>RobTop</td>
+<td>Aarks</td>
+<td>270</td>
+<td>arxdamn</td>
+</tr>
+<tr>
+<td>5</td>
+<td class="mainlist"><a href="#" onclick="showLevel(
+'Nivan Never Clear',
+'No desc. provided',
+'Harder',
+'Glowing24',
+'WiredMK',
+'nil',
+'250'
+); return false;">Nivan Never Clear</a></td>
+<td class="harder">Harder (Insane, Unrated)</td>
+<td>Glowing24</td>
+<td>WiredMK</td>
+<td>250</td>
+<td>-</td>
+</tbody>
+</table>
+<table>
+<caption>
+<h2>The Extended List</h2>
+</caption>
+<thead>
+<tr>
+<th class="rank">No.</th>
+<th>Level</th>
+<th>Difficulty</th>
+<th>Creator</th>
+<th>Verifier</th>
+<th>Points</th>
+<th>Victors</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>6</td>
+<td class="extendedlist"><a href="#" onclick="showLevel(
+'Drown',
+'My first non-main level Insane',
+'Insane',
+'Amberling',
+'Aarks',
+'nil',
+'220'
+); return false;">Drown</a></td>
+<td class="insane">Insane</td>
+<td>Amberling</td>
+<td>Aarks</td>
+<td>220</td>
+<td>-</td>
+</tr>
+<tr>
+<td>7</td>
+<td class="extendedlist">
+<a href="#" onclick="showLevel(
+'Clutterfunk',
+'Sticky keys ahh music',
+'Insane',
+'RobTop',
+'Aarks',
+'arxdamn, Niv',
+'200'
+); return false;">Clutterfunk</a></td>
+<td class="insane">Insane</td>
+<td>RobTop</td>
+<td>Aarks</td>
+<td>200</td>
+<td>Niv, arxdamn</td>
+</tr>
+<tr>
+<td>8</td>
+<td class="extendedlist"><a href="#" onclick="showLevel(
+'Theory of Everything',
+'Flappy bird',
+'Insane',
+'RobTop',
+'Aarks',
+'arxdamn, Niv',
+'180'
+); return false;">Theory of Everything</a></td>
+<td class="insane">Insane</td>
+<td>RobTop</td>
+<td>Aarks</td>
+<td>180</td>
+<td>Niv, arxdamn</td>
+</tr>
+<tr>
+<td>9</td>
+<td class="extendedlist"><a href="#" onclick="showLevel(
+'The Nightmare',
+'No desc. provided',
+'Easy Demon',
+'Jax',
+'arxdamn',
+'nil',
+'150'
+); return false;">The Nightmare</a></td>
+<td class="easydemon">Easy Demon (Insane)</td>
+<td>Jax</td>
+<td>arx</td>
+<td>150</td>
+<td>-</td>
+</tr>
+<tr>
+<td>10</td>
+<td class="extendedlist"><a href="#" onclick="showLevel(
+'Mauveine VII',
+'My first daily Insane',
+'Insane',
+'LinkSparks',
+'Aarks',
+'nil',
+'120'
+); return false;">Mauveine VII</a></td>
+<td class="insane">Insane</td>
+<td>LinkSparks</td>
+<td>Aarks</td>
+<td>120</td>
+<td>-</td>
+</tr>
+<tr>
+<td>11</td>
+<td class="extendedlist"><a href="#" onclick="showLevel(
+'Cycles',
+'Ball go crazy',
+'Harder',
+'RobTop',
+'Aarks',
+'arxdamn, Niv, WiredMK, prx',
+'90'
+); return false;">Cycles</a></td>
+<td class="harder">Harder</td>
+<td>RobTop</td>
+<td>Aarks</td>
+<td>90</td>
+<td>arxdamn, WiredMK, prx, Niv</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+</main>
+<hr>
+<footer style="text-align: center;"><i>For questions and placement issues, DM me and we'll talk there :)</i></footer>
+<div id="levelInfo" class="info-panel">
+
+    <button class="close-btn" onclick="closePanel()">Close</button>
+
+    <h2 id="levelTitle"></h2>
+   
+    <p id="levelDescription"></p>
+
+    <p id="levelCreator"></p>
+
+    <p id="levelDifficulty"></p>
+
+    <p id="levelVerifier"></p>
+
+    <p id="levelVictors"></p>
+
+    <p id="levelPoints"></p>
+
+</div>
+<script>
+
+function showLevel(
+title,
+description,
+difficulty,
+creator,
+verifier,
+victors,
+points
+){
+
+    document.getElementById("levelTitle").innerHTML=title;
+    
+    document.getElementById("levelDescription").innerHTML = description;
+  
+    document.getElementById("levelCreator").innerHTML ="Creator: " + creator;
+
+    let diff = document.getElementById("levelDifficulty");
+
+diff.innerHTML = "Difficulty: " + difficulty;
+
+if(difficulty=="Easy")
+    diff.style.color="dodgerblue";
+
+else if(difficulty=="Normal")
+    diff.style.color="forestgreen";
+
+else if(difficulty=="Hard")
+    diff.style.color="gold";
+
+else if(difficulty=="Harder")
+    diff.style.color="crimson";
+
+else if(difficulty=="Insane")
+    diff.style.color="fuchsia";
+
+else if(difficulty=="Easy Demon")
+    diff.style.color="darkviolet";
+
+else if(difficulty=="Medium Demon")
+    diff.style.color="purple";
+
+else if(difficulty=="Hard Demon")
+    diff.style.color="firebrick";
+
+else if(difficulty=="Insane Demon")
+    diff.style.color="red";
+
+else if(difficulty=="Extreme Demon")
+    diff.style.color="maroon";
+
+else
+    diff.style.color="white";
+
+    document.getElementById("levelVerifier").innerHTML="Verifier: "+verifier;
+
+    document.getElementById("levelVictors").innerHTML="Victors: "+victors;
+
+    document.getElementById("levelPoints").innerHTML="Points: "+points;
+
+    document.getElementById("levelInfo").style.display="block";
+
+}
+
+function closePanel(){
+
+    document.getElementById("levelInfo").style.display="none";
+
+}
+
+</script>
+</body>
+</html>

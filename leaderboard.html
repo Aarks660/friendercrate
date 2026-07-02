@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Friendercrate Demonlist</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1 style="text-align: center;" class="absolutecinema">Friendercrate Leaderboard</h1>
+<p style="text-align: center;">The Leaderboard, a ranking of the best players from the Hola Server using a points system.</p>
+<center>
+<a href="index.html" class="button"><-- Go Back</a>
+<a href="demonlist.html" class="button">Check out the List</a>
+<a href="submit.html" class="button">Submit your Completion</a>
+</center>
+</header>
+<main>
+<section id="leaderboard" class="card">
+<center>
+<table>
+<thead>
+<tr>
+<th class="rank">No.</th>
+<th>Name</th>
+<th>Total Points</th>
+<th>Levels Completed</th>
+<th>Hardest Completion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td class="top1">
+<a href="#" onclick="showPlayer(
+'Aarks',
+'2060',
+'Deadlocked',
+'Deadlocked, Theory of Everything II, Clubstep, Electrodynamix, Drown, Clutterfunk, Theory of Everything, Mauveine VII, Cycles',
+'Massive Power (38%)'
+); return false;">Aarks</a></td>
+<td>2060</td>
+<td>4 Main, 5 Extended, 0 Legacy</td>
+<td class="top1">Deadlocked</td>
+</tr>
+<tr>
+<td>2</td>
+<td class="top2"><a href="#" onclick="showPlayer(
+'arxdamn',
+'890',
+'Electrodynamix',
+'Electrodynamix, Clutterfunk, Theory of Everything, The Nightmare, Cycles',
+'-'
+); return false;">arxdamn</a></td>
+<td>890</td>
+<td>1 Main, 4 Extended, 0 Legacy</td>
+<td class="mainlist">Electrodynamix</td>
+</tr>
+<tr>
+<td>3</td>
+<td class="top3"><a href="#" onclick="showPlayer(
+'Niv',
+'470',
+'Clutterfunk',
+'Clutterfunk, Theory of Everything, Cycles',
+'-'
+); return false;">Niv</a></td>
+<td>470</td>
+<td>0 Main, 3 Extended, 0 Legacy</td>
+<td class="extendedlist">Clutterfunk</td>
+</tr>
+<tr>
+<td>4</td>
+<td class="mainlist"><a href="#" onclick="showPlayer(
+'WiredMK',
+'340',
+'Nivan Never Clear',
+'Nivan Never Clear, Cycles',
+'-'
+); return false;">WiredMK</a></td>
+<td>340</td>
+<td>1 Main, 1 Extended, 0 Legacy</td>
+<td class="mainlist">Nivan Never Clear</td>
+<tr>
+<td>5</td>
+<td class="mainlist">
+<a href="#" onclick="showPlayer(
+'prx',
+'90',
+'Cycles',
+'Cycles',
+'-'
+); return false;">prx</a></td>
+<td>90</td>
+<td>0 Main, 1 Extended, 0 Legacy</td>
+<td class="extendedlist">Cycles</td>
+</tbody>
+</table>
+</section>
+</main>
+<hr>
+<footer style="text-align: center;">For questions and placement issues, DM me and we'll talk there :)</footer>
+
+<div id="playerInfo" class="info-panel">
+
+    <button class="close-btn" onclick="closePanel()">Close</button>
+
+    <h2 id="playerName"></h2>
+   
+    <p id="playerPoints"></p>
+
+    <p id="playerHardest"></p>
+
+    <p id="playerCompletions"></p>
+
+    <p id="playerProgress"></p>
+
+</div>
+<script>
+
+function showPlayer(
+name,
+points,
+hardest,
+completions,
+progress
+){
+
+    document.getElementById("playerName").innerHTML= name;
+    
+    document.getElementById("playerPoints").innerHTML ="Points: " + points;
+  
+    document.getElementById("playerHardest").innerHTML ="Hardest: " + hardest;
+
+    document.getElementById("playerCompletions").innerHTML="Completion: "+completions;
+
+    document.getElementById("playerProgress").innerHTML="Progress On: "+ progress;
+
+    document.getElementById("playerInfo").style.display="block";
+
+}
+
+function closePanel(){
+
+    document.getElementById("playerInfo").style.display="none";
+
+}
+
+</script>
+
+</body>
+</html>

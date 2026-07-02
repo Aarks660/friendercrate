@@ -1,0 +1,310 @@
+body{font-family:Arial,sans-serif; background:#111; color:#eee; margin:0;}
+header{background:#1d1d1d;padding:16px 24px}
+footer{background:#1d1d1d;padding:16px 24px}
+main{max-width:1300px;margin:auto;padding:24px}
+.button{
+  display: inline-block;
+  padding: 1px 7px;
+  background-color: #424242;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  border: 3px solid black;
+  box-shadow: 0 0 7px black
+}
+
+.button:hover {
+  background-color: #3d3d3d;
+  box-shadow: 0 0 12px black
+}
+.button2{
+  display: inline-block;
+  padding: 1px 7px;
+  background-color: #424242;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  border: 3px solid black;
+  box-shadow: 0 0 7px black
+}
+
+.button2:hover {
+  background-color: #3d3d3d;
+  box-shadow: 0 0 12px black
+}
+
+.button3{
+  font-size: 30px;
+  display: inline-block;
+  padding: 30px 70px;
+  background-color: #424242;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  border: 3px solid black;
+  box-shadow: 0 0 15px black
+}
+
+.button3:hover {
+  background-color: #3d3d3d;
+  box-shadow: 0 0 25px black
+}
+
+
+.absolutecinema{
+    text-shadow: 0 0 20px grey;
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        yellow 0%,
+        goldenrod 15%,
+        khaki 25%,
+        yellow 35%,
+        goldenrod 50%,
+        khaki 65%,
+        yellow 75%,
+        goldenrod 90%,
+        khaki 100%
+        
+    );
+
+    background-size: 300% 100%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 12s linear infinite;
+}
+
+@keyframes shine {
+    from {
+        background-position: -300% 0;
+    }
+    to {
+        background-position: 300% 0;
+    }
+}
+
+.top1 {
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        #b8860b,
+        gold,
+        yellow,
+        gold,
+        #b8860b,
+        goldenrod,
+        yellow,
+        #b8860b
+    );
+
+    background-size: 300% 100%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 7s linear infinite;
+}
+
+@keyframes {
+    from {
+        background-position: -300% 0;
+    }
+    to {
+        background-position: 300% 0;
+    }
+}
+.top2 {
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        #7d7c7c,
+        dimgrey,
+        white,
+        dimgrey,
+        #7d7c7c
+    );
+
+    background-size: 300% 100%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 5s linear infinite;
+}
+
+@keyframes {
+    from {
+        background-position: -300% 0;
+    }
+    to {
+        background-position: 300% 0;
+    }
+}
+.top3 {
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        #cd7f32,
+        saddlebrown,
+        chocolate,
+        saddlebrown,
+        #cd7f32
+    );
+
+    background-size: 300% 100%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 7s linear infinite;
+}
+
+@keyframes {
+    from {
+        background-position: -300% 0;
+    }
+    to {
+        background-position: 300% 0;
+    }
+}
+.mainlist {
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        white,
+        aquamarine,
+        white,
+        cyan,
+        aquamarine
+        
+    );
+
+    background-size: 300% 100%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 8s linear infinite;
+}
+
+@keyframes {
+    from {
+        background-position: -300% 0;
+    }
+    to {
+        background-position: 300% 0;
+    }
+}
+
+.extendedlist {
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        white,
+        dimgrey,
+        white,
+        dimgrey,
+        grey
+        
+    );
+
+    background-size: 300% 100%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: shine 8s linear infinite;
+}
+
+@keyframes {
+    from {
+        background-position: -300% 0;
+    }
+    to {
+        background-position: 300% 0;
+    }
+}
+
+.easy {
+    color: DodgerBlue;
+    text-shadow: 0 0 5px DodgerBlue;
+}
+
+.normal {
+    color: ForestGreen;
+    text-shadow: 0 0 5px ForestGreen;
+}
+
+.hard {
+    color: Gold;
+    text-shadow: 0 0 5px Gold;
+}
+
+.harder {
+    color: Crimson;
+    text-shadow: 0 0 5px Crimson;
+}
+
+.insane {
+    color: Fuchsia;
+    text-shadow: 0 0 5px Fuchsia;
+}
+
+.easydemon {
+    color: DarkViolet;
+    text-shadow: 0 0 6px DarkViolet;
+}
+
+.mediumdemon {
+    color: Purple;
+    text-shadow: 0 0 6px Purple;
+}
+
+.harddemon {
+    color: FireBrick;
+    text-shadow: 0 0 6px FireBrick;
+}
+
+.insanedemon {
+    color: Red;
+    text-shadow: 0 0 7px Red;
+}
+
+.extremedemon {
+    color: Maroon;
+    text-shadow: 0 0 8px Maroon;
+}
+.card{background:#1b1b1b;padding:20px;border-radius:10px;margin:20px 0}
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px;border-bottom:1px solid #333;text-align:center}
+th{background:#262626}
+.rank{width:70px}
+.info-panel{
+    display: none;
+
+    position: fixed;
+
+    right: 20px;
+    top: 100px;
+
+    width: 300px;
+
+    background: #222;
+
+    border: 2px solid white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    color: white;
+}
+
+.close-btn{
+    float: right;
+}
