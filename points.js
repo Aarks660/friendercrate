@@ -15,7 +15,7 @@ const levels = {
 "Mauveine VII": {points:80, list:"Extended"},
 "Sunshine": {points:60, list:"Extended"},
 "Cycles": {points:40, list:"Extended"},
-"Blast Processing": {points:40, list:"Extended"},
+"Blast Processing": {points:20, list:"Extended"},
 
 "Flappy UFO": {points:0, list:"Legacy"},
 "Jumper": {points:0, list:"Legacy"},
