@@ -1,33 +1,31 @@
 const levels = {
 
-"Deadlocked": {points:350, list:"Main"},
-"Theory of Everything II": {points:330, list:"Main"},
-"Clubstep": {points:300, list:"Main"},
-"The Planetarium": {points:270, list:"Main"},
-"ISpyWithMyLittleEye": {points:250, list:"Main"},
+"Deadlocked": {points:1000, list:"Main"},
+"Syobon Action": {points:950, list:"Main"},
+"DEMON PARK": {points:900, list:"Main"},
+"Troll Madness": {points:850, list:"Main"},
+"The Planetarium": {points:800, list:"Main"},
+"Problematic": {points:750, list:"Main"},
+"Theory of Everything II": {points:700, list:"Main"},
+"Ultra Paracosm": {points:650, list:"Main"},
+"Clubstep": {points:600, list:"Main"},
+"ISpyWithMyLittleEye": {points:550, list:"Main"},
 
-"Pain Engine": {points:220, list:"Extended"},
-"PixeL Dungeon": {points:200, list:"Extended"},
-"Electrodynamix": {points:180, list:"Extended"},
-"Nivan Never Clear": {points:150, list:"Extended"},
-"Aloft": {points:120, list:"Extended"},
-"GD Gangster Rap": {points:100, list:"Extended"},
-"Drown": {points:80, list:"Extended"},
-"Panshiyu Modern": {points:60, list:"Extended"},
-"Invaders": {points:40, list:"Extended"},
-"Magmatic Sanctuary": {points:20, list:"Extended"},
-
-"To The Floor": {points:0, list:"Legacy"},
-"Clutterfunk": {points:0, list:"Legacy"},
-"Theory of Everything": {points:0, list:"Legacy"},
-"The Nightmare": {points:0, list:"Legacy"},
-"Mauveine VII": {points:0, list:"Legacy"},
-"Sunshine": {points:0, list:"Legacy"},
-"Cycles": {points:0, list:"Legacy"},
-"Blast Processing": {points:0, list:"Legacy"},
-"Flappy UFO": {points:0, list:"Legacy"},
-"Jumper": {points:0, list:"Legacy"},
-"Outerspace": {points:0, list:"Legacy"}
+"Demon Park": {points:520, list:"Extended"},
+"Pain Engine": {points:490, list:"Extended"},
+"yStep": {points:470, list:"Extended"},
+"Electrodynamix": {points:440, list:"Extended"},
+"Nivan Never Clear": {points:410, list:"Extended"},
+"PixeL Dungeon": {points:390, list:"Extended"},
+"Panshiyu Modern": {points:370, list:"Extended"},
+"GD Gangster Rap": {points:340, list:"Extended"},
+"Aloft": {points:310, list:"Extended"},
+"Shiver": {points:290, list:"Extended"},
+"Hexagon Force": {points:270, list:"Extended"},
+"THE LIGHTNING ROAD": {points:240, list:"Extended"},
+"Clutterfunk": {points:210, list:"Extended"},
+"The Nightmare": {points:190, list:"Extended"},
+"Theory of Everything": {points:170, list:"Extended"},
 
 };
 
@@ -35,67 +33,53 @@ const players = {
 
 Aarks: [
 "Deadlocked",
-"Theory of Everything II",
-"Clubstep",
 "The Planetarium",
+"Problematic",
+"Theory of Everything II",
+"Ultra Paracosm",
+"Clubstep",
 "Pain Engine",
 "PixeL Dungeon",
 "Electrodynamix",
 "Aloft",
-"Drown",
 "Panshiyu Modern",
-"Invaders",
-"Magmatic Sanctuary",
-"To The Floor",
+"Shiver",
+"Hexagon Force",
 "Clutterfunk",
-"Theory of Everything",
-"Mauveine VII",
-"Cycles",
-"Blast Processing",
-"Jumper",
-"Outerspace",
+"The Nightmare",
+"Theory of Everything"
 ],
 
 arxdamn: [
+"Syobon Action",
+"DEMON PARK",
 "Clubstep",
 "ISpyWithMyLittleEye",
+"yStep",
 "Electrodynamix",
 "GD Gangster Rap",
+"Shiver",
 "Clutterfunk",
+"THE LIGHTNING ROAD",
 "Theory of Everything",
-"The Nightmare",
-"Sunshine",
-"Cycles",
-"Blast Processing",
-"Jumper",
-"Flappy UFO",
-"Outerspace"
+"The Nightmare"
 ],
 
 Niv243: [
+"Troll Madness",
 "Clutterfunk",
-"Theory of Everything",
-"Cycles",
-"Blast Processing",
-"Jumper"
+"Theory of Everything"
 ],
 
 WiredMK: [
 "Nivan Never Clear",
-"Cycles",
-"Blast Processing",
-"Jumper"
+"THE LIGHTNING ROAD"
 ],
 
 ItzShadowPR: [
-"Cycles",
-"Blast Processing",
-"Jumper"
+"Clubstep",
+"Electrodynamix"
 ],
-
-Ridhasaul: [
-"Jumper"
-]
 
 };
 
