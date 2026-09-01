@@ -20,12 +20,12 @@ const levels = {
 "Panshiyu Modern": {points:370, list:"Extended"},
 "GD Gangster Rap": {points:340, list:"Extended"},
 "Aloft": {points:310, list:"Extended"},
-"Shiver": {points:290, list:"Extended"},
-"Hexagon Force": {points:270, list:"Extended"},
-"THE LIGHTNING ROAD": {points:240, list:"Extended"},
-"Clutterfunk": {points:210, list:"Extended"},
-"The Nightmare": {points:190, list:"Extended"},
-"Theory of Everything": {points:170, list:"Extended"},
+"Platinum Adventures": {points:290, list:"Extended"},
+"Shiver": {points:270, list:"Extended"},
+"Hexagon Force": {points:240, list:"Extended"},
+"THE LIGHTNING ROAD": {points:210, list:"Extended"},
+"Clutterfunk": {points:190, list:"Extended"},
+"The Nightmare": {points:170, list:"Extended"}
 
 };
 
@@ -47,7 +47,6 @@ Aarks: [
 "Hexagon Force",
 "Clutterfunk",
 "The Nightmare",
-"Theory of Everything"
 ],
 
 arxdamn: [
@@ -60,15 +59,14 @@ arxdamn: [
 "GD Gangster Rap",
 "Shiver",
 "Clutterfunk",
+"Platinum Adventures",
 "THE LIGHTNING ROAD",
-"Theory of Everything",
 "The Nightmare"
 ],
 
 Niv243: [
 "Troll Madness",
-"Clutterfunk",
-"Theory of Everything"
+"Clutterfunk"
 ],
 
 WiredMK: [
