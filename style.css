@@ -2,6 +2,13 @@ body{font-family:Arial,sans-serif; background:#111; color:#eee; margin:0;}
 header{background:#1d1d1d;padding:16px 24px}
 footer{background:#1d1d1d;padding:16px 24px}
 main{max-width:1300px;margin:auto;padding:24px}
+th {
+    font-size: 20px;
+}
+
+td {
+    font-size: 18px;
+}
 .button{
   display: inline-block;
   padding: 1px 7px;
@@ -313,4 +320,9 @@ th{background:#262626}
 
 .close-btn{
     float: right;
+}
+td img {
+    width: 260px;
+    height: 135px;
+    object-fit: cover;
 }

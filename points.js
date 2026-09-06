@@ -59,6 +59,7 @@ arxdamn: [
 "GD Gangster Rap",
 "Shiver",
 "Clutterfunk",
+"Hexagon Force",
 "Platinum Adventures",
 "THE LIGHTNING ROAD",
 "The Nightmare"
