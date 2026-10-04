@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/demonlist", "destination": "/demonlist.html" },
     { "source": "/leaderboard", "destination": "/leaderboard.html" },
-    { "source": "/submit", "destination": "/submit.html" }
+    { "source": "/submit", "destination": "/submit.html" },
+    { "source": "/challenges", "destination": "/challenges.html" }
   ]
 }
