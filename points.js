@@ -1,33 +1,33 @@
 const levels = {
 
-"-Sirius-": {points:1000, list:"Main"},
-"Deadlocked": {points:950, list:"Main"},
-"Syobon Action": {points:900, list:"Main"},
-"Troll Madness": {points:850, list:"Main"},
-"DEMON PARK": {points:800, list:"Main"},
-"The Planetarium": {points:750, list:"Main"},
-"Problematic": {points:700, 
-list:"Main"},
-"Invisible Clubstep": {points:650, list:"Main"},
-"Theory of Everything II": {points:600, list:"Main"},
-"Ultra Paracosm": {points:550, list:"Main"},
+"Ultra Fairydust": {points:1000, list:"Main"},
+"-Sirius-": {points:950, list:"Main"},
+"Sakupen Egg": {points:900, list:"Main"},
+"Deadlocked": {points:850, list:"Main"},
+"Syobon Action": {points:800, list:"Main"},
+"Troll Madness": {points:750, list:"Main"},
+"DEMON PARK": {points:700, list:"Main"},
+"The Planetarium": {points:650, list:"Main"},
+"Problematic": {points:600, list:"Main"},
+"Invisible Clubstep": {points:550, list:"Main"},
 
-"Clubstep": {points:520, list:"Extended"},
-"ISpyWithMyLittleEye": {points:490, list:"Extended"},
-"Demon Park": {points:470, list:"Extended"},
-"Pain Engine": {points:440, list:"Extended"},
-"yStep": {points:410, list:"Extended"},
-"Electrodynamix": {points:390, list:"Extended"},
-"Nivan Never Clear": {points:370, list:"Extended"},
-"PixeL Dungeon": {points:340, list:"Extended"},
-"Panshiyu Modern": {points:310, list:"Extended"},
-"GD Gangster Rap": {points:290, list:"Extended"},
-"Aloft": {points:270, list:"Extended"},
-"Platinum Adventures": {points:240, list:"Extended"},
-"Shiver": {points:210, list:"Extended"},
-"Hexagon Force": {points:190, list:"Extended"},
-"THE LIGHTNING ROAD": {points:170, list:"Extended"},
+"Theory of Everything II": {points:520, list:"Extended"},
+"Ultra Paracosm": {points:490, list:"Extended"},
+"Clubstep": {points:460, list:"Extended"},
+"ISpyWithMyLittleEye": {points:430, list:"Extended"},
+"Demon Park": {points:400, list:"Extended"},
+"Pain Engine": {points:370, list:"Extended"},
+"yStep": {points:340, list:"Extended"},
+"Electrodynamix": {points:310, list:"Extended"},
+"PixeL Dungeon": {points:280, list:"Extended"},
+"Panshiyu Modern": {points:250, list:"Extended"},
+"GD Gangster Rap": {points:220, list:"Extended"},
+"Aloft": {points:190, list:"Extended"},
+"Shiver": {points:160, list:"Extended"},
+"Platinum Adventures": {points:130, list:"Extended"},
+"Hexagon Force": {points:100, list:"Extended"},
 
+"THE LIGHTNING ROAD": {points:0, list:"Legacy"},
 "Clutterfunk": {points:0, list:"Legacy"},
 "The Nightmare": {points:0, list:"Legacy"}
 
@@ -36,6 +36,8 @@ list:"Main"},
 const players = {
 
 Aarks: [
+"Ultra Fairydust",
+"Sakupen Egg",
 "Deadlocked",
 "The Planetarium",
 "Problematic",
@@ -63,6 +65,7 @@ arxdamn: [
 "yStep",
 "Electrodynamix",
 "GD Gangster Rap",
+"Aloft",
 "Shiver",
 "Clutterfunk",
 "Hexagon Force",
@@ -74,11 +77,6 @@ arxdamn: [
 Niv243: [
 "Troll Madness",
 "Clutterfunk"
-],
-
-WiredMK: [
-"Nivan Never Clear",
-"THE LIGHTNING ROAD"
 ],
 
 ItzShadowPR: [

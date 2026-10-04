@@ -43,16 +43,16 @@ td {
 }
 
 .button3{
-  font-size: 30px;
+  font-size:25px;
   display: inline-block;
-  padding: 30px 70px;
+  padding: 20px 50px;
   background-color: #424242;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 4px;
   text-align: center;
-  border: 3px solid black;
-  box-shadow: 0 0 15px black
+  border: 2px solid black;
+  box-shadow: 0 0 10px black
 }
 
 .button3:hover {
