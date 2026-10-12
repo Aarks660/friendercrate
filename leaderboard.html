@@ -36,35 +36,42 @@
 <tr>
 <td>1</td>
 <td class="top1">Aarks</td>
-<td>9180</td>
-<td>11 Main, 9 Extended, 0 Legacy</td>
+<td>8920</td>
+<td>10 Main, 10 Extended, 2 Legacy</td>
 <td class="top1">Ultra Fairydust</td>
 </tr>
 <tr>
 <td>2</td>
 <td class="top2">arxdamn</td>
-<td>5140</td>
-<td>4 Main, 12 Extended, 0 Legacy</td>
+<td>4740</td>
+<td>3 Main, 11 Extended, 2 Legacy</td>
 <td class="top2">-Sirius-</td>
 </tr>
 <tr>
 <td>3</td>
 <td class="top3">ItzShadowPR</td>
-<td>1480</td>
-<td>0 Main, 2 Extended, 0 Legacy</td>
-<td class="mainlist">Clubstep</td>
+<td>1400</td>
+<td>0 Main, 4 Extended, 0 Legacy</td>
+<td class="extendedlist">Clubstep</td>
 </tr>
 <tr>
 <td>4</td>
 <td class="mainlist">Niv</td>
-<td>980</td>
-<td>1 Main, 3 Extended, 0 Legacy</td>
+<td>840</td>
+<td>1 Main, 1 Extended, 2 Legacy</td>
 <td class="mainlist">Troll Madness</td>
 </tr>
 <tr>
 <td>5</td>
-<td class="mainlist">Priyansh3452</td>
-<td>480</td>
+<td class="mainlist">WiredMK</td>
+<td>620</td>
+<td>1 Main, 1 Extended, 1 Legacy</td>
+<td class="mainlist">Retro Circles</td>
+</tr>
+<tr>
+<td>6</td>
+<td class="extendedlist">Priyansh3452</td>
+<td>440</td>
 <td>0 Main, 2 Extended, 0 Legacy</td>
 <td class="extendedlist">BRAINFUGD</td>
 </tr>
@@ -74,53 +81,5 @@
 </main>
 <hr>
 <footer style="text-align: center;">For questions and placement issues, DM me and we'll talk there :)</footer>
-
-<div id="playerInfo" class="info-panel">
-
-    <button class="close-btn" onclick="closePanel()">Close</button>
-
-    <h2 id="playerName"></h2>
-   
-    <p id="playerPoints"></p>
-
-    <p id="playerHardest"></p>
-
-    <p id="playerCompletions"></p>
-
-    <p id="playerProgress"></p>
-
-</div>
-<script>
-
-function showPlayer(
-name,
-points,
-hardest,
-completions,
-progress
-){
-
-    document.getElementById("playerName").innerHTML= name;
-    
-    document.getElementById("playerPoints").innerHTML ="Points: " + points;
-  
-    document.getElementById("playerHardest").innerHTML ="Hardest: " + hardest;
-
-    document.getElementById("playerCompletions").innerHTML="Completions: "+completions;
-
-    document.getElementById("playerProgress").innerHTML="Progress On: "+ progress;
-
-    document.getElementById("playerInfo").style.display="block";
-
-}
-
-function closePanel(){
-
-    document.getElementById("playerInfo").style.display="none";
-
-}
-
-</script>
-
 </body>
 </html>

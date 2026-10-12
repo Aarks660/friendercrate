@@ -11,31 +11,34 @@ const levels = {
 "The Planetarium": {points:680, list:"Main"},
 "Problematic": {points:640, list:"Main"},
 "Theory of Everything II": {points:600, list:"Main"},
-"Space Circles": {points:560, list:"Main"},
-"Invisible Clubstep": {points:520, list:"Main"},
-"Ultra Paracosm": {points:480, list:"Main"},
-"Clubstep": {points:440, list:"Main"},
+"Retro Circles": {points: 560, list: "Main"},
+"Space Circles": {points:520, list:"Main"},
+"Invisible Clubstep": {points:480, list:"Main"},
+"Ultra Paracosm": {points:440, list:"Main"},
 
-"The Farewell": {points:420, list:"Extended"},
-"ISpyWithMyLittleEye": {points:400, list:"Extended"},
-"Demon Park": {points:380, list:"Extended"},
-"Pain Engine": {points:360, list:"Extended"},
-"yStep": {points:340, list:"Extended"},
-"ForGurt": {points:320, list:"Extended"},
-"Electrodynamix": {points:300, list:"Extended"},
-"BRAINFUGD": {points:280, list:"Extended"},
-"PixeL Dungeon": {points:260, list:"Extended"},
-"Panshiyu Modern": {points:240, list:"Extended"},
-"GD Gangster Rap": {points:220, list:"Extended"},
-"Dash": {points:200, list:"Extended"},
-"Aloft": {points:180, list:"Extended"},
-"Shiver": {points:160, list:"Extended"},
-"Platinum Adventures": {points:140, list:"Extended"},
-"Hexagon Force": {points:120, list:"Extended"},
-"THE LIGHTNING ROAD": {points:100, list:"Extended"},
-"Clutterfunk": {points:80, list:"Extended"},
-"Theory of Everything": {points:60, list:"Extended"},
-"The Nightmare": {points:40, list:"Extended"}
+"Clubstep": {points:420, list:"Extended"},
+"The Farewell": {points:400, list:"Extended"},
+"ISpyWithMyLittleEye": {points:380, list:"Extended"},
+"Demon Park": {points:360, list:"Extended"},
+"Pain Engine": {points:340, list:"Extended"},
+"yStep": {points:320, list:"Extended"},
+"ForGurt": {points:300, list:"Extended"},
+"Electrodynamix": {points:280, list:"Extended"},
+"BRAINFUGD": {points:260, list:"Extended"},
+"PixeL Dungeon": {points:240, list:"Extended"},
+"Panshiyu Modern": {points:220, list:"Extended"},
+"GD Gangster Rap": {points:200, list:"Extended"},
+"Dash": {points:180, list:"Extended"},
+"Aloft": {points:160, list:"Extended"},
+"Shiver": {points:140, list:"Extended"},
+"To the Floor": {points: 120, list:"Extended"},
+"Platinum Adventures": {points:100, list:"Extended"},
+"Hexagon Force": {points:80, list:"Extended"},
+"THE LIGHTNING ROAD": {points:60, list:"Extended"},
+"Clutterfunk": {points:40, list:"Extended"},
+
+"Theory of Everything": {points:0, list:"Legacy"},
+"The Nightmare": {points:0, list:"Legacy"}
 
 };
 
@@ -59,8 +62,10 @@ Aarks: [
 "Aloft",
 "Panshiyu Modern",
 "Shiver",
+"To the Floor",
 "Hexagon Force",
 "Clutterfunk",
+"Theory of Everything",
 "The Nightmare"
 ],
 
@@ -100,6 +105,12 @@ ItzShadowPR: [
 Priyansh3452: [
 "BRAINFUGD",
 "Dash"
+],
+
+WiredMK: [
+"Retro Circles",
+"THE LIGHTNING ROAD",
+"The Nightmare"
 ],
 
 };
